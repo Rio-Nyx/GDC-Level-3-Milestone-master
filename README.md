@@ -42,9 +42,9 @@ The test.py file will run your program and compare the output with the expected 
 ## Endpoints
 
 ```
-https://localhost:8000/ 		  # Lists all the actions that can be done
-https://localhost:8000/tasks 	  # renders all the pending tasks
+https://localhost:8000/           # Lists all the actions that can be done
+https://localhost:8000/tasks      # renders all the pending tasks
 https://localhost:8000/completed  # renders all the tasks that have been completed
-https://localhost:8000/add 		  # To add a new task
-https://localhost:8000/action 	  # To mark a task as completed or to delete it based on priority
+https://localhost:8000/add        # To add a new task
+https://localhost:8000/action     # To mark a task as completed or to delete it based on priority
 ```
