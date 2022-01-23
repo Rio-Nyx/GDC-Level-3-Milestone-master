@@ -78,8 +78,6 @@ class SimpleTest(unittest.TestCase):
         task = "".join(random.choices(random_choices, k=20))
         self.command_object.add(["25", task])
         self.assertIn(task, self.command_object.render_pending_tasks())
-        self.command_object.runserver()
-        t = input()
 
     def test_completed_render(self):
         task = "".join(random.choices(random_choices, k=20))
